@@ -1,0 +1,267 @@
+.navbar {
+  background-color: transparent;
+}
+.navbar-default {
+  border-bottom: 0px solid white;
+}
+*{
+    font-family: 'Lato';
+    font-size: 14px;
+}
+a {
+  text-decoration: none;
+}
+h1, h2, h3, p{
+    margin: 0 !important;  
+}
+.fondo{
+  background-image: url("../image/large.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 680px;
+}
+.sombra{
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 680px;
+}
+.mg-row {
+    margin:3%;
+}
+   
+#menu li{
+display: inline-block;
+}            
+#menu li a{
+  color: #fff;
+  text-decoration: none;
+  padding: 0 30px;
+}
+#menu li a:hover{
+background-color: #528CD1;
+padding: 10px 30px;
+}
+.text-portada{
+  color: white;
+  font-size: 40px;
+  padding: 10% 25%;
+}  
+.baner-blue{
+  background-color: rgba(82, 141, 210, 0.6);
+  position: absolute;
+  top: 82.8%;
+  width: 100%;
+  padding: 2.5%;
+}
+.text-prueba{
+  text-align: right;
+  color: white
+}
+.pruebalo{
+  border: 1px solid white ;
+  background: transparent;
+  font-size: 18px;
+  padding: 3%;
+  color: white;
+  border-radius: 5px;
+}
+.servicios{
+  padding-bottom: 5%;
+  border-bottom: 1px solid rgba(204, 204, 204, 0.9);
+}
+.servicios h2{
+    color: #58A5FF;
+    padding: 6%;
+} 
+.servicios h4{
+    color: #849CB4;
+    padding: 4% 29%;
+}
+.servicios p{
+    color: grey;
+    padding: 1% 10%;
+}
+.circulo {
+    box-shadow: -1px 2px 5px rgba(136, 136, 136, 0.5);
+    color: #7FB9FF;
+    background-color: #71216;
+    margin: auto;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    border: none;
+    padding-top: 30px;
+}
+.img-flecha{
+    position: absolute;
+    left: 47%;
+    padding-top: 1%
+}
+.icon{
+    font-size: 40px; 
+}
+
+.video{
+    margin-top: 5%;
+    padding-bottom: 5%;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.82);
+}
+.video p{
+    padding-top: 1%;
+}
+
+.video h2{
+    color: #58A5FF;
+   padding-left: 17%;
+    float: left;
+    clear: left;
+
+}
+.titulo-video{
+    padding: 2.5% 0;
+    text-align: left;
+}
+.img-user{
+    width: 45%;
+}
+.text-manzana{
+    color: #58A5FF;
+}
+.loquiero{
+    border-bottom: 1px solid rgba(204, 204, 204, 0.82);
+    margin: auto;
+    text-align: center;
+}   
+.loquiero h2{
+    padding: 3% 3%;
+    text-align: left; 
+}   
+.loquiero p{
+    padding-left:  6%;
+    text-align: left;
+}
+.loquiero ul{
+    padding-left: 9%;
+    text-align: left;
+} 
+.fondo-loquiero{
+    background: url("../image/sec-2.jpg") no-repeat center;
+    background-size: cover;
+    width: 50%;
+    height: 450px;
+}
+.sombra-loquiero{
+    top:0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 450px;
+   } 
+.separador{
+    position: absolute;
+    top: 87%;
+    left: 92.6%;
+}
+
+.text-blue{
+    color: #50BDEA;
+    font-size: 18px;
+    padding-top: 4%;
+    padding-left:  6%;   
+   }
+
+.icon1{
+    top: 15%;
+    left: 95%;
+}
+.icon2{
+    top: 40%; 
+    left: 95%;
+}
+.icon3{
+    top: 65%; 
+    left: 95%;       
+}
+.icon-loquiero{
+    background-color: #50BDEA;
+    padding: 3%;
+    color: white;
+    position: absolute;
+    border-radius: 50%;
+    font-size: 20px;
+}
+.porqueusar{
+    padding: 5% 0;
+    margin-top: 2%
+} 
+.porqueusar h2{
+  color: #58A5FF;
+  padding-left: 6%;
+  float: left;
+}
+.porqueusar p{
+  line-height:25px;
+}
+.img-chico{
+    width: 100%;
+}
+span{
+  color: #57A4FF;
+}
+.pruebagratuita{
+  background-color: #74A3DB;
+  padding: 3% 0;
+}
+.left{
+ text-align: left;  
+    }
+.right {
+ text-align: right;
+}
+
+footer{
+  background-color:#2A3541;
+  width:100%;
+  padding: 3%;
+}
+.margin-l{
+    margin-left: 5%
+}
+footer p{
+  margin:6% 8%;
+  color:white;
+}
+.copyright{
+  margin-top:15%;
+  margin-left:55%;
+}
+.ico-copy{
+  float: right;
+}
+.icono{
+  font-size:35px;
+  color:#2E5B8F;
+  margin-right: 30px;
+  position: relative;
+  left: 50%;
+}
+
+.contactanos{
+background-image:url(../image/large.jpg);
+background-size:cover;
+width:100%;
+height:667px;
+}
+
+/*contact.html*/
+.formulario {
+  text-align: center;
+}
+
+
+
